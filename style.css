@@ -57,13 +57,25 @@ h2{
 
 .subs{
     height: 250px;
-    width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 .thou{
-    height: 200px;
+    height: 250px;
     width: 350px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new{
+    height: 250px;
+    width: 250px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -106,7 +118,7 @@ u{
     color: deepskyblue;
 }
 
-@media (max-width:632px){
+@media (max-width:500px){
     .img{
         height: 100px;
         width: 100%;
@@ -164,6 +176,8 @@ u{
     }
 
     .new{
+        height: 250px;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
